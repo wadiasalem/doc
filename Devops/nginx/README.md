@@ -76,3 +76,9 @@ To check if the code you write is correct :
 Then restart nginx:
 
       systemctl restart nginx
+
+## Check ports
+
+To check which ports are listening :
+
+      netstat -tpln
